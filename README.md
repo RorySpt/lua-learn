@@ -14,7 +14,7 @@ Zeal](https://zealdocs.org/)
 开发环境：[<img src="https://resources.jetbrains.com/storage/logos/web/clion/clion.svg" height="32" alt="CLion" />
 clion 2025.1.3](https://www.jetbrains.com/clion/download/?section=windows)
 
-1. 拉去当前项目，使用 **Clion** 打开文件夹
+1. 拉取当前项目，使用 **Clion** 打开文件夹
 2. 正确配置 **Clion** 的 **vcpkg** 设置
 3. 直接构建运行
 

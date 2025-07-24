@@ -33,7 +33,7 @@ int main() {
     };
 
 
-    system("powershell Get-Content 'scripts/script.lua'");
+    system(R"(powershell Get-Content "scripts/script.lua")");
 
 
     auto tp = create_timer();

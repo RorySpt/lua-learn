@@ -1,0 +1,12 @@
+{
+  "name" : "untitled",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "ef97fc17c79603d33b13833db54bb77f8f747306",
+  "dependencies" : [ {
+    "name" : "lua",
+    "version>=" : "5.4.8"
+  }, {
+    "name" : "fmt",
+    "version>=" : "11.0.2#1"
+  } ]
+}

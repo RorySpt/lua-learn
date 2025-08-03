@@ -3,7 +3,13 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(untitled main.cpp)
+
+include_directories(src)
+
+
+add_executable(untitled main.cpp
+        src/run_script.cpp
+        src/run_script.h)
 
 find_package(fmt CONFIG REQUIRED)
 target_link_libraries(untitled PRIVATE fmt::fmt-header-only)
@@ -12,6 +18,8 @@ find_package(Lua REQUIRED)
 target_include_directories(untitled PRIVATE ${LUA_INCLUDE_DIR})
 target_link_libraries(untitled PRIVATE ${LUA_LIBRARIES})
 
+find_package(stdexec CONFIG REQUIRED)
+#target_link_libraries(untitled PRIVATE stdexec::stdexec)
 
 
 # 安装脚本文件
